@@ -1,0 +1,39 @@
+<header class="show-mobile">
+  <div>
+    <button (click)="toggleMenu()">
+      <img src="../../../assets/images/icon_menu.svg" alt="menu">
+    </button>
+    <a href="">
+      <img src="../../../assets//images/logo_yard_sale.svg" alt="logo">
+    </a>
+    <a href="">
+      <img src="../../../assets/images/icon_shopping_cart.svg" alt="carrito">
+    </a>
+  </div>
+  <menu class="side-menu" [class.active]="activeMenu">
+    <button class="close-button" (click)="toggleMenu()">Close</button>
+    <ul>
+      <li>Contactanos</li>
+      <li>Soporte</li>
+      <li>Mi cuenta</li>
+    </ul>
+  </menu>
+</header>
+<header class="hide-mobile">
+  <div>
+    <nav>
+      <a class="yard-logo" href="">
+        <img src="../../../assets/images/logo_yard_sale.svg" alt="Logo">
+      </a>
+      <ul>
+        <li><a href="">All</a></li>
+        <li><a href="">Clothes</a></li>
+        <li><a href="">Electronics</a></li>
+      </ul>
+    </nav>
+    <div class="user-info">
+      <div class="account">sergio@gmail.com</div>
+      <div><a href=""><img src="../../../assets/images/icon_shopping_cart.svg" alt="Carrito"></a></div>
+    </div>
+  </div>
+</header>

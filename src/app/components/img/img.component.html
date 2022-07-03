@@ -1,0 +1,2 @@
+<img class="product-image" (load)="imgLoaded()" (error)="imgError()" [src]="imgText" alt="Avatar" *ngIf="imgText">
+<p *ngIf="errorInImg">Hubo un error</p>
