@@ -43,6 +43,23 @@
     .account {
       margin-right: .5em;
     }
+    .shopping-cart-container {
+      position: relative;
+      display: block;
+      .counter {
+        position: absolute;
+        right: -12px;
+        top: -4px;
+        color: #fefefe;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 20px;
+        background-color: #458f4b;
+      }
+    }
   }
 }
 

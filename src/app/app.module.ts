@@ -9,6 +9,8 @@ import { ProductoComponent } from './components/producto/producto.component';
 import { ProductsComponent } from './components/product/products.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TimeAgoPipe } from './pipes/time-ago.pipe';
+import { BackgroundColorDirective } from './directives/background-color.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
     ImgComponent,
     ProductoComponent,
     ProductsComponent,
-    NavComponent
+    NavComponent,
+    TimeAgoPipe,
+    BackgroundColorDirective
   ],
   imports: [
     BrowserModule,

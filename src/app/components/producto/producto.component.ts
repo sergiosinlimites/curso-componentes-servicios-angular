@@ -12,9 +12,6 @@ export class ProductoComponent implements OnInit {
   @Output() productAdded = new EventEmitter<Product>()
   constructor() { }
 
-  ngOnInit(): void {
-  }
-  
   onLoaded(event: string){
     console.log(event);
   }

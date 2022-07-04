@@ -1,5 +1,5 @@
 Has agregado {{ myShoppingCart.length }} artículos, por valor de ${{ total }} USD
-
+<p appBackgroundColor>El día {{ oldDate | timeAgo }}</p>
 <div class="products-container">
   <app-producto [product]="product" *ngFor="let product of products" (productAdded)="onAddToCart($event)"></app-producto>
 </div>

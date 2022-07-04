@@ -1,5 +1,5 @@
 
 <app-img (loaded)="onLoaded($event)" [imgText]="product.image" [alt]="product.title"></app-img>
-<p>{{ product.price }}</p>
+<p>{{ product.price | currency:'COP' }}</p>
 <h2>{{ product.title }}</h2>
 <button (click)="onAddToCart()">Add to cart</button>
