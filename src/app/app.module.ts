@@ -8,6 +8,7 @@ import { ImgComponent } from './components/img/img.component';
 import { ProductoComponent } from './components/producto/producto.component';
 import { ProductsComponent } from './components/product/products.component';
 import { NavComponent } from './components/nav/nav.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavComponent } from './components/nav/nav.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
